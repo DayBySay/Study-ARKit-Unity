@@ -160,7 +160,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 318623914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.68, z: 3.19}
+  m_LocalPosition: {x: 0, y: 4.9, z: 3.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1568026768}
@@ -177,7 +177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561175692}
   - component: {fileID: 561175693}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Video Player-Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -204,7 +204,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 561175691}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 708427b815a5641598b856d45c8717e2, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 0}
   m_TargetTexture: {fileID: 8400000, guid: c733514a44abe48d89c0f706afd5a135, type: 2}
@@ -212,21 +212,19 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 2
-  m_DataSource: 1
+  m_AspectRatio: 1
+  m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 1
-  m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
+  m_Url: file:///Users/t-sei/Downloads/output_left.webm
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
 --- !u!1 &563473069
@@ -390,7 +388,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294965247
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -413,7 +411,7 @@ GameObject:
   - component: {fileID: 1342713879}
   - component: {fileID: 1342713878}
   - component: {fileID: 1342713877}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Plane-Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -427,8 +425,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1342713875}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0.03, y: 0, z: 0}
-  m_LocalScale: {x: 1.000001, y: 1.0000005, z: 1.0000005}
+  m_LocalPosition: {x: 0.03, y: -3.71, z: -1.46}
+  m_LocalScale: {x: 0.25, y: 1.0000005, z: 0.25}
   m_Children:
   - {fileID: 2074978714}
   m_Father: {fileID: 318623915}
@@ -498,7 +496,7 @@ GameObject:
   - component: {fileID: 1568026771}
   - component: {fileID: 1568026770}
   - component: {fileID: 1568026769}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Plane-Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -512,8 +510,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1568026767}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -0.03, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.03, y: -3.71, z: -1.46}
+  m_LocalScale: {x: 0.25, y: 1, z: 0.25}
   m_Children:
   - {fileID: 561175692}
   m_Father: {fileID: 318623915}
@@ -715,7 +713,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294963199
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -749,7 +747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074978714}
   - component: {fileID: 2074978715}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Video Player-Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,7 +774,7 @@ VideoPlayer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2074978713}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 5246aa56005734c8ea0479782732dfb0, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera: {fileID: 0}
   m_TargetTexture: {fileID: 8400000, guid: b850ac52565c94242a8b865e4d8b7361, type: 2}
@@ -784,18 +782,18 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 2
-  m_AspectRatio: 2
+  m_AspectRatio: 1
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
-  m_Url: 
+  m_Url: file:///Users/t-sei/Downloads/output_right.webm
   m_EnabledAudioTracks: 
   m_DirectAudioMutes: 
   m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 0
+  m_Looping: 1
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
