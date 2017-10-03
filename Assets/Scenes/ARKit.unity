@@ -747,6 +747,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1926329061229282, guid: 2bfb96e80df74425a828a6f763de7ba4, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2bfb96e80df74425a828a6f763de7ba4, type: 2}
   m_IsPrefabParent: 0
@@ -805,7 +809,7 @@ GameObject:
   - component: {fileID: 1033579240}
   - component: {fileID: 1033579239}
   - component: {fileID: 1033579238}
-  m_Layer: 12
+  m_Layer: 0
   m_Name: VR Camera Right
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -1216,6 +1220,78 @@ Prefab:
     - target: {fileID: 4206346303690698, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
       propertyPath: m_RootOrder
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1922177883579702, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1405863647107904, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250963889919316, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993533919962440, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761259945294520, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1727120202455884, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650465766419078, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1362852321299072, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219387395643526, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1744319746802692, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1480896789563112, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1106802636646704, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1924803823240948, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1518337795605192, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449682265474286, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1614801318117324, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745741091783002, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948324759597912, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cedebf05497c4058a48c1b665a32f93, type: 2}
